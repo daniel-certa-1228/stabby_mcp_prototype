@@ -29,6 +29,7 @@ def get_knife_list():
                 """
                 SELECT * 
                 FROM view_knife_grid
+                WHERE is_active = true
                 ORDER BY brand, knife;
                 """
             )
